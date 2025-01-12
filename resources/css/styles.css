@@ -93,8 +93,16 @@ body {
 	margin: 0 auto 20px;
 }
 .social-icon {
-	height: 20px;
+	height: 30px;
+	width: 30px;
+	padding: 8px;
+	border: 1px solid var(--Pale-Blue);
+	border-radius: 50%;
+	cursor: pointer;
 }
+/* .social-icon:hover {
+	background-color: var(--Blue);
+} */
 .copyright-text {
 	color: var(--Gray);
 	font-size: 10px;
