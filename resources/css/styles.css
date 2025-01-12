@@ -1,0 +1,36 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+:root {
+	--Pale-Blue: hsl(223, 100%, 88%);
+	--Light-Red: hsl(354, 100%, 66%);
+	--Gray: hsl(0, 0%, 59%);
+	--Very-Dark-Blue: hsl(209, 33%, 12%);
+}
+body {
+}
+.main-container {
+}
+.logo-iamge {
+}
+.heading-text {
+}
+.subheading-text {
+}
+.email-input {
+}
+.subscribe-button {
+}
+.illustration-image {
+}
+.copyright-text {
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
