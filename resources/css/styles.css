@@ -4,28 +4,88 @@
 	box-sizing: border-box;
 }
 :root {
+	--Blue: hsl(223, 87%, 63%);
 	--Pale-Blue: hsl(223, 100%, 88%);
 	--Light-Red: hsl(354, 100%, 66%);
 	--Gray: hsl(0, 0%, 59%);
 	--Very-Dark-Blue: hsl(209, 33%, 12%);
 }
+@font-face {
+	font-family: Libre Franklin;
+	src: url("../fonts/LibreFranklin-VariableFont_wght.ttf");
+}
 body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
 }
 .main-container {
+	font-size: 20px;
+	font-family: Libre Franklin;
+	display: flex;
+	flex-direction: column;
+	margin: auto 0;
+	text-align: center;
+	width: fit-content;
 }
-.logo-iamge {
+.logo-image {
+	width: 80px;
+	margin: 0 auto 40px;
 }
 .heading-text {
+	color: var(--Gray);
+	font-weight: 300;
+	margin: 0 0 10px 0;
+}
+.highlighted-text {
+	color: black;
+	font-weight: 700;
 }
 .subheading-text {
+	color: var(--Very-Dark-Blue);
+	margin: 0 0 25px 0;
+}
+.input-row {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin: 0 0 60px 0;
 }
 .email-input {
+	flex: 3;
+	padding: 15px 30px;
+	border: 1px solid var(--Pale-Blue);
+	border-radius: 30px;
+	outline: none;
 }
 .subscribe-button {
+	flex: 1;
+	color: white;
+	padding: 15px 0;
+	background-color: var(--Blue);
+	border-radius: 30px;
+	border: none;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
 }
 .illustration-image {
+	width: 550px;
+	margin: 0 0 60px 0;
+}
+.social-icons-row {
+	display: flex;
+	gap: 10px;
+	width: fit-content;
+	margin: 0 auto 20px;
+}
+.social-icon {
+	height: 20px;
 }
 .copyright-text {
+	color: var(--Gray);
+	font-size: 10px;
 }
 .attribution {
 	font-size: 11px;
@@ -33,4 +93,8 @@ body {
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+	text-decoration: none;
+}
+.attribution a:hover {
+	text-decoration: underline;
 }
