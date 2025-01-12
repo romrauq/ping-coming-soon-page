@@ -110,3 +110,66 @@ body {
 .attribution a:hover {
 	text-decoration: underline;
 }
+@media (max-width: 475px) {
+	.main-container {
+		display: flex;
+		flex-direction: column;
+		margin: 30px auto 0;
+		width: 90%;
+	}
+	.logo-image {
+		width: 80px;
+		margin: 0 auto 40px;
+	}
+	.heading-text {
+		font-size: 32px;
+		margin: 0 0 10px 0;
+	}
+	.highlighted-text {
+		color: black;
+		font-weight: 700;
+	}
+	.subheading-text {
+		color: var(--Very-Dark-Blue);
+		margin: 0 0 40px 0;
+	}
+	.input-row {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 10px;
+		margin: 0 0 60px 0;
+	}
+	.field-column {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+	}
+	.email-input {
+		padding: 20px 30px;
+	}
+	.error-text {
+		display: none;
+		font-size: 12px;
+		align-self: center;
+		padding: 0;
+	}
+	.subscribe-button {
+		height: fit-content;
+		padding: 20px;
+		cursor: pointer;
+		margin: 0 0 40px 0;
+	}
+	.illustration-image {
+		width: 100%;
+		margin: 0 0 60px 0;
+	}
+	.social-icon {
+		height: 25px;
+	}
+	.copyright-text {
+		color: var(--Gray);
+		font-size: 12px;
+		margin: 0 0 40px 0;
+	}
+}
