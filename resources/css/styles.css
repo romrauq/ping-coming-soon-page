@@ -53,17 +53,29 @@ body {
 	gap: 10px;
 	margin: 0 0 60px 0;
 }
-.email-input {
+.field-column {
 	flex: 3;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+.email-input {
 	padding: 15px 30px;
 	border: 1px solid var(--Pale-Blue);
 	border-radius: 30px;
 	outline: none;
 }
+.error-text {
+	display: none;
+	color: var(--Light-Red);
+	font-size: 10px;
+	align-self: flex-start;
+	padding: 0 30px;
+}
 .subscribe-button {
 	flex: 1;
 	color: white;
-	padding: 15px 0;
+	height: 45px;
 	background-color: var(--Blue);
 	border-radius: 30px;
 	border: none;
